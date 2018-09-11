@@ -1,0 +1,70 @@
+
+body{
+    margin: 20px;
+    padding: 0;
+    background: darkgray;
+}
+.container{
+    max-width: 760px;
+    max-height: 650px;
+    margin: auto;
+    border: 5px solid black;
+    background: grey;
+}
+img{
+    width:100%;
+}
+.main-img{
+    height: 500px;
+}
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(6,.4fr) ;
+    grid-gap: 5px;
+    height: 150px;
+}
+.main-img img{
+    height: 99.5%;
+}
+.imgs img{
+    height: 99.6%;
+}
+
+/* Fadein animation */
+
+@keyframes fadein{
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
